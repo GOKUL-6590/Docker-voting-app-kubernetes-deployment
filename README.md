@@ -9,7 +9,7 @@ It includes the following microservices:
 * Redis (In-memory queue)
 * PostgreSQL (Database)
 
-===========================================================================================================
+===========================================
 """ Architecture Diagram: 
 
 [Voting UI]  ---> Redis Queue ---> [Worker] ---> PostgreSQL ---> [Results UI] """
@@ -34,7 +34,7 @@ Before running this project, ensure you have:
 * kubectl installed
 * GitHub account
 
-==========================================================================================================
+===========================================
 
 Steps : 
 
@@ -44,7 +44,7 @@ Create Namespac --> kubectl apply -f namespace.yaml
 
 Deploy Redis, PostgreSQL, Vote App, Result App, Worker --> kubectl apply -f .
 
-==========================================================================================================
+============================================
 
 Check Pods & Services :
 kubectl get pods -n voting-app
