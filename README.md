@@ -10,9 +10,10 @@ It includes the following microservices:
 * PostgreSQL (Database)
 
 ===========================================
-""" Architecture Diagram: 
 
-[Voting UI]  ---> Redis Queue ---> [Worker] ---> PostgreSQL ---> [Results UI] """
+Architecture Diagram: 
+
+[Voting UI]  ---> Redis Queue ---> [Worker] ---> PostgreSQL ---> [Results UI]
 
 
 Folder Structure:
@@ -35,8 +36,6 @@ Before running this project, ensure you have:
 * GitHub account
 
 ===========================================
-
-Steps : 
 
 Deploy to Kubernetes
 
