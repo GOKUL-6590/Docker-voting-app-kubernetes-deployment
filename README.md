@@ -1,4 +1,4 @@
-#Docker Voting Application — Kubernetes Deployment
+### Docker Voting Application — Kubernetes Deployment ###
 
 This project demonstrates how to deploy a complete microservices-based voting application on a Kubernetes cluster.
 It includes the following microservices:
